@@ -17,6 +17,7 @@ public class HandgunPickUp : MonoBehaviour
         fakeHandgun.SetActive(false);
         handgunPickupSound.Play();
         GetComponent <BoxCollider>().enabled = false;
+        pickUpDisplay.SetActive(false);
         pickUpDisplay.GetComponent<Text>().text = "HANDGUN";
         GetComponent<BoxCollider>().enabled = false;
         pickUpDisplay.SetActive(true);
