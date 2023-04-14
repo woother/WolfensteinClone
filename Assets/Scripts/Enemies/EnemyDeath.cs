@@ -26,6 +26,7 @@ public class EnemyDeath : MonoBehaviour
             theEnemy.GetComponent<Animator>().Play("EnemyDeath");
             enemyAI.SetActive(false);
             hurtFlash.SetActive(false);
+            GlobalScore.scoreValue += 20;
         }
     }
 }
