@@ -27,6 +27,7 @@ public class EnemyDeath : MonoBehaviour
             enemyAI.SetActive(false);
             hurtFlash.SetActive(false);
             GlobalScore.scoreValue += 20;
+            GlobalComplete.enemyCount += 1;
         }
     }
 }
