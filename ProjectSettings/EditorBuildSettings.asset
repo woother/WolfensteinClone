@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity
     guid: 71b9c3e3b6cf10a4fbd3c378ccddfd7c
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/LevelRecycle.unity
     guid: 2138e4f09e692d74285b0b23cdd65d39
@@ -20,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 38ec5d89833242f48a2fdceabe610196
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 18c7e6e8d9f082e49803744137de0b46
+  - enabled: 1
+    path: Assets/Scenes/Level002.unity
+    guid: 5594d4e609e9d3049811265f67b46b6c
   m_configObjects: {}
