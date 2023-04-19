@@ -60,4 +60,9 @@ public class MainMenuControl : MonoBehaviour
         GlobalAmmo.handgunAmmo = loadAmmo;
         SceneManager.LoadScene(loadScene);
     }
+
+    public void CreditButton()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
