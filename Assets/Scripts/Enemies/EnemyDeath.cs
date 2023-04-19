@@ -9,7 +9,6 @@ public class EnemyDeath : MonoBehaviour
     public bool enemyDead = false;
     public GameObject enemyAI;
     public GameObject theEnemy;
-    public GameObject hurtFlash;
 
     void DamageEnemy (int damageAmount)
     {
@@ -25,7 +24,6 @@ public class EnemyDeath : MonoBehaviour
             enemyDead = true;
             theEnemy.GetComponent<Animator>().Play("EnemyDeath");
             enemyAI.SetActive(false);
-            hurtFlash.SetActive(false);
             GlobalScore.scoreValue += 20;
             GlobalComplete.enemyCount += 1;
         }
