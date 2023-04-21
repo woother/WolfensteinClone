@@ -42,12 +42,20 @@ public class MainMenuControl : MonoBehaviour
 
     public void LoadGame()
     {
+        loadScene = PlayerPrefs.GetInt("SceneToLoad");
+        if (loadScene ==0)
+        {
+            //nothing happens
+        }
+        else
+        {
         StartCoroutine(LoadGameRoutine());
+
+        }
     }
 
     IEnumerator LoadGameRoutine()
     {
-        loadScene = PlayerPrefs.GetInt("SceneToLoad");
         loadLives = PlayerPrefs.GetInt("LivesSaved");
         loadScore = PlayerPrefs.GetInt("LivesSaved");
         loadAmmo = PlayerPrefs.GetInt("AmmoSaved");
